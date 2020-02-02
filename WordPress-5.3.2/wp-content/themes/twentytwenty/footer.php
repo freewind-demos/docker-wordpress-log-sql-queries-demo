@@ -59,3 +59,12 @@
 
 	</body>
 </html>
+
+<?php
+
+global $wpdb;
+echo "<pre>Query List:";
+print_r($wpdb->queries);
+echo "</pre>";
+
+?>
